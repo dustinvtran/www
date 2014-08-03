@@ -21,8 +21,7 @@
         <!--<a href="https://github.com/dustinvtran" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;-->
         <!--<a href="https://www.linkedin.com/in/dustinvtran" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;-->
         <a href="https://twitter.com/dustinvtran" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-        <!--<a href="../">About Me</a>&nbsp;&nbsp;·&nbsp;&nbsp;-->
-        <a href="http://dustinvtran.com/">About Me</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+        <a href="{{author.website}}">About Me</a>
     </div>
 </header>
 
@@ -103,7 +102,6 @@
 <footer class="site-footer">
     <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip"> Subscribe!</span></a>
     <div class="inner">
-         <!--<section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>-->
          <section class="copyright">All content copyright <a href="{{author.website}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
          <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org"> Ghost</a></section>
     </div>
