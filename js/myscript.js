@@ -11,8 +11,12 @@ $(document).ready(function() {
         e.preventDefault();
     });
 // a dropdown for courses
-    $('a.courses').click(function(e) {
-        $('#berkeley').slideToggle();
+    $('a.berkeley').click(function(e) {
+        $('#berkeley-courses').slideToggle();
+        e.preventDefault();
+    });
+    $('a.harvard').click(function(e) {
+        $('#harvard-courses').slideToggle();
         e.preventDefault();
     });
 });
