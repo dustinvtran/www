@@ -286,7 +286,7 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 .circle.orange:after { background: none repeat scroll 0% 0% rgb(255, 132, 0); }
 .circle.teal:after { background: none repeat scroll 0% 0% rgb(0, 194, 145); }
 
-.circle.poker { background: url('img/poker.jpg') no-repeat scroll 0% 0% transparent; }
+.circle.chess { background: url('img/chess.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.hacking { background: url('img/hacking.png') no-repeat scroll 0% 0% transparent; }
 .circle.fiction { background: url('img/fiction.jpg') no-repeat scroll 0% 0% transparent; }
 
