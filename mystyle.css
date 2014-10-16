@@ -324,3 +324,7 @@ a.img:hover {
     opacity: 0.8;
     transition: opacity 0.1s ease-in-out 0s;
 }
+
+ul {
+    list-style-position: inside;
+}
