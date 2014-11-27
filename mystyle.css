@@ -75,6 +75,7 @@ a { color: rgb(0, 136, 204); text-decoration: none; }
 .span10 { width: 780px; }
 .span9 { width: 700px; }
 .span8 { width: 620px; }
+.span7 { width: 540px; }
 .span6 { width: 460px; }
 .span5 { width: 380px; }
 .span4 { width: 300px; }
@@ -89,6 +90,7 @@ a { color: rgb(0, 136, 204); text-decoration: none; }
 .row-fluid .span10 { width: 82.9787%; }
 .row-fluid .span9 { width: 74.4681%; }
 .row-fluid .span8 { width: 65.9574%; }
+.row-fluid .span7 { width: 56.9362%; }
 .row-fluid .span6 { width: 48.9362%; }
 .row-fluid .span5 { width: 40.4255%; }
 .row-fluid .span4 { width: 31.9149%; }
@@ -186,12 +188,11 @@ button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner { paddi
 .sub-header .nav li a { text-transform: uppercase; font-family: "Alright Sans Medium"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; font-size: 13px; line-height: 13px; color: rgb(255, 255, 255); padding: 17px 15px 13px; border: medium none; transition: color 0.15s linear 0s; }
 .sub-header .nav li a:hover { color: rgb(204, 204, 204); }
 .parent-pageid-18 .sub-header .current_page_item, .post-type-archive-faq .sub-header .page-item-20 { border-bottom: 5px solid rgb(0, 194, 145); }
-.hero.custom-header-block-container { height: 0px; background-size: cover; padding-top: 15%; padding-bottom: 15%; position: relative; }
-.custom-header-block.container { position: relative; width: 940px; margin: -260px auto 0px; height: 260px; display: block; }
+.hero.custom-header-block-container { height: 0px; background-size: cover; padding-top: 15%; padding-bottom: 15%; }
+.custom-header-block.container { position: relative; width: 940px; margin: -260px auto 0px; height: 260px; }
 .custom-header-block .header-title { display: block; position: absolute; height: 100%; top: 0px; z-index: 20; width: 100%; }
-.custom-header-block .header-title h2 { color: rgb(255, 255, 255); display: block; font-size: 65px; line-height: 75px; height: auto; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; margin: auto 0px; opacity: 1; padding-left: 4%; padding-right: 2%; vertical-align: baseline; width: 94%; }
-.custom-header-block .header-title h2.first-line { padding-top: 55px; }
-.custom-header-block .header-title h2.second-line { padding-bottom: 55px; }
+.custom-header-block .header-title h2 { color: rgb(255, 255, 255); display: block; font-size: 65px; line-height: 75px; height: auto; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; margin: auto 0px; opacity: 1; vertical-align: baseline; }
+.custom-header-block .header-title h2.first-line { padding-top: 65px; }
 @media not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 }
 @media not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -272,7 +273,7 @@ p { margin: 0px; }
 a { color: rgb(68, 68, 68); border-bottom: 1px solid rgb(68, 68, 68); }
 a:hover { text-decoration: none ! important; }
 .hero { background-color: rgb(255,255,255); }
-.header-title { background-color: rgba(0, 194, 145, 0.8); color: rgb(255, 255, 255); text-align: center; }
+.header-title { background-color: rgba(0, 194, 145, 0.8); color: rgb(255, 255, 255); text-align: left; }
 h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1px; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; }
 #section-01 .section-banner { height: 300px; background: url('section-header.jpg') no-repeat scroll 0% 0% transparent; }
 
@@ -327,4 +328,12 @@ a.img:hover {
 
 ul {
     list-style-position: inside;
+}
+
+.photo { background: url('img/photo.jpg');
+ border-radius: 50%; width: 200px; height: 200px;
+ display: block;
+ margin: auto;
+ margin-right: 10%;
+ margin-top: 30px;
 }
