@@ -192,7 +192,7 @@ button.btn::-moz-focus-inner, input.btn[type="submit"]::-moz-focus-inner { paddi
 .custom-header-block.container { position: relative; width: 940px; margin: -260px auto 0px; height: 260px; }
 .custom-header-block .header-title { display: block; position: absolute; height: 100%; top: 0px; z-index: 20; width: 100%; }
 .custom-header-block .header-title h2 { color: rgb(255, 255, 255); display: block; font-size: 65px; line-height: 75px; height: auto; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; margin: auto 0px; opacity: 1; vertical-align: baseline; }
-.custom-header-block .header-title h2.first-line { padding-top: 65px; }
+.custom-header-block .header-title h2.first-line { padding-top: 45px; }
 @media not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 }
 @media not all, only screen and (min--moz-device-pixel-ratio: 2), not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -274,7 +274,7 @@ a { color: rgb(68, 68, 68); border-bottom: 1px solid rgb(68, 68, 68); }
 a:hover { text-decoration: none ! important; }
 .hero { background-color: rgb(255,255,255); }
 .header-title { background-color: rgba(0, 194, 145, 0.8); color: rgb(255, 255, 255); text-align: left; }
-h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1px; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; }
+h3 {display: inline-block; font-size: 24px; letter-spacing: 1px; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; }
 #section-01 .section-banner { height: 300px; background: url('section-header.jpg') no-repeat scroll 0% 0% transparent; }
 
 
@@ -337,3 +337,9 @@ ul {
  margin-right: 10%;
  margin-top: 30px;
 }
+.custom-header-block h1, h2, h3, h4, h5, h6 { margin: 0px; }
+.custom-header-block h3 { line-height: 30px; }
+.custom-header-block h4 {display: inline-block; font-size: 20px; line-height: 30px; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; }
+
+a.icon {color: rgb(255, 255, 255);}
+.blog {font-family: "Alright Sans"; font-weight: bold; text-rendering: optimizespeed; }
