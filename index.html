@@ -1,313 +1,323 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <title>Dustin Tran</title>
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="mystyle.css" media="all">
-  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="js/myscript.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <style type="text/css">
+    a {
+      color: #0e9ce0;
+    }
+  </style>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body class="page page-id-5 page-child parent-pageid-18 page-template page-template-our-story-php">
+<body>
 
-<div class="hero custom-header-block-container">
-</div>
+  <div class="container">
 
-<div class="container custom-header-block">
-  <div class="row-fluid">
-    <div class="header-title">
-      <div class="span5">
-        <div class="photo"></div>
+    <div class="row" style="padding:20px">
+
+       <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:180px">
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+          <!--<li><a href="contact/CV.pdf">CV</a></li>-->
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#pet-projects">Pet Projects</a></li>
+          <li><a href="#other-interests">Other Interests</a></li>
+          <li><a href="blog">Blog</a></li>
+        </ul>
       </div>
-      <div class="span7">
-        <h2 class="first-line">Dustin Tran</h2>
-        <h3>Graduate student at Harvard</h3><br>
-        <h4>dtran@g.harvard.edu</h4><br>
-        <h4>
-        <a href="https://twitter.com/dustinvtran" class="icon">
-          <i class="fa fa-twitter fa-2x"></i>
-        </a>
-        <a href="https://github.com/dustinvtran" class="icon">
-          <i class="fa fa-github fa-2x"></i>
-        </a>
-        <a href="blog" class="icon blog">Blog</a>
-        </h4>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="content" id="our-story">
-  <div class="container bg-white" id="section-00">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <p id="paragraph-title">
-          I am a Master's student in Computational Science at Harvard
-          University. I am interested in methods for parameter estimation and
-          inference, particularly analyzing the tradeoff between their
-          computational efficiency and numerical stability.
-        </p>
-      </div>
-    </div>
-  </div>
+      <div class="col-xs-12 col-sm-9 col-md-9">
+        <div class="row">
+            <img src="img/photo.png" class="pull-left" style="margin:20px
+            20px 20px 0; height:140px; width:140px; border-radius:100%"/>
+            <h1>Dustin Tran</h1>
+            <p class="lead">
+              Master's Student at Harvard University<br>
+              dtran@g.harvard.edu
+              <br>
+              <a href="https://twitter.com/dustinvtran" class="icon">
+                <i class="fa fa-twitter fa-lg"></i>
+              </a>
+              <a href="https://github.com/dustinvtran" class="icon">
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+              <a href="blog" class="icon blog">Blog</a>
+            </p>
+        </div>
 
-  <div class="container bg-white" id="section-00" style="padding-bottom: 0">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <p id="paragraph-title">
-          I currently work with Professor Edoardo Airoldi, where we are
-          analyzing stochastic gradient methods for principled estimation with
-          large data sets. Prior to this, I was an undergraduate at Berkeley
-          where I studied convex optimization and randomized matrix
-          factorizations.
-          <br><br>
+        <hr>
+
+        <div class="row">
+          <p>
+          I am a Master's student in Computational Science at Harvard. I am
+          broadly interested in methods for parameter estimation, particularly
+          <a
+          href="http://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization">stable
+          and efficient things</a>.
+          </p><p>
+          I currently work with Professor <a
+          href="http://www.people.fas.harvard.edu/~airoldi/">Edoardo
+          Airoldi</a>, where we are analyzing stochastic gradient methods for
+          principled estimation with large data sets. Prior to this, I was an
+          undergraduate at Berkeley where I studied convex optimization with
+          Professor <a href="http://www.eecs.berkeley.edu/~brecht/">Ben
+          Recht</a> and randomized matrix factorizations with Professor <a
+          href="http://math.berkeley.edu/~strain/">John Strain</a>.
+          </p><p>
           I am also a teaching fellow for the <a
           href="http://iacs-courses.seas.harvard.edu/courses/am205/">Numerical
-          Methods</a> graduate course at Harvard, and I do part-time work for <a
-          href="https://www.meetearnest.com">startups</a>.
-        </p>
+          Methods</a> graduate course at Harvard, and I do part-time work for
+          <a href="https://www.meetearnest.com">startups</a>.
+          </p>
+        </div>
+
+        <div class="row">
+          <h2><a name="publications"></a>Publications</h2>
+          <hr>
+          <p>
+            <strong>Averaged implicit stochastic gradient descent (in
+            progress).</strong><br>
+            Dustin Tran, Panos Toulis, Edoardo Airoldi<br>
+          </p>
+          <br>
+          <div class="col-md-6">
+            <img src="img/convex_hull.png" class="img-responsive"/>
+          </div>
+          <div class="col-md-6">
+            <p>
+              <h4>Convex Techniques for Model Selection.</h4>
+              We develop a robust convex algorithm to select the
+              regularization parameter in model selection. In practice this
+              would be automated in order to save practitioners time from
+              having to tune it manually. In particular, we implement and test
+              the convex method for $K$-fold cross validation on ridge
+              regression, although the same concept extends to more complex
+              models. We then compare its performance with standard methods.
+              <br>
+              <strong>Dustin Tran</strong><br>
+              <em>Preprint arXiv:1411.7596 [math.OC].</em> 2014.
+            </p>
+            <div class="btn-group-xs">
+              <a href="http://arxiv.org/abs/1411.7596"
+              class="btn btn-default">Paper</a>
+              <a href="publications/recht_model_selection_talk.pdf"
+              class="btn btn-default">Slides</a>
+            </div>
+          </div>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <h2><a name="talks"></a>Talks</h2>
+          <hr>
+          <div class="col-md-6">
+            <img src="img/tree1.png" class="img-responsive"
+            style="height:280px"/>
+          </div>
+          <div class="col-md-6">
+            <img src="img/tree0.png" class="img-responsive"
+            style="height:280px"/>
+          </div>
+          <div class="col-md-12">
+            <ul style="padding-left:20px;">
+              <li>
+                <div class="btn-group-xs">
+                  <em>Facebook: Tree-like
+                  structures in Social and Informational Networks</em>, Institute for
+                  Applied Computational Science Seminars, Cambridge, MA. November 2014.
+                  <a href="talks/facebook_tree_structure_networks.pdf"
+                  class="btn btn-default">Slides</a>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group-xs">
+                  <em>Data Analysis in R</em>, <a
+                  href="https://cs50.harvard.edu">Harvard CS 50</a>, Cambridge,
+                  MA.  November 2014.
+                  <a href="http://cs50.tv/2014/fall/seminars/data_analysis_r/"
+                  class="btn btn-default">Video</a>
+                  <a href="talks/data_analysis_r.pdf" class="btn
+                  btn-default">Slides</a>
+                  <a href="https://github.com/dustinvtran/r-cs50" class="btn
+                  btn-default">Code</a>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group-xs">
+                  <em>A data science internship at Earnest</em>, <a
+                  href="https://www.meetearnest.com/">Earnest</a>, San Francisco, CA.
+                  August 2014.
+                  <a href="talks/earnest_ds_internship.pdf" class="btn
+                  btn-default">Slides</a>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group-xs">
+                  <em>Detecting contagion in financial networks</em>, Spatial Networks
+                  Seminar, Berkeley, CA. December 2013.
+                  <a href="talks/networks_talk.pdf" class="btn
+                  btn-default">Slides</a>
+                </div>
+              </li>
+              <li>
+                <em>A Riemannian manifold setting for Hamiltonian Monte Carlo</em>,
+                Riemannian Geometry course, Berkeley, CA. May 2013.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <h2><a name="pet-projects"></a>Pet Projects</h2>
+          <hr>
+          <div class="col-md-4">
+            <img src="img/nipspreview.jpg" style="height:250px;width:250px;"/>
+            <p>
+              <h3>Pretty Accepted Papers</h3><br>
+              <a href="https://github.com/dustinvtran/nipspreview">My fork</a>
+              of Andrej Karpathy's <span style="font-family:
+              monospace;">nipspreview</span> uses a <a
+              href="http://en.wikipedia.org/wiki/Hierarchical_Dirichlet_process">hierarchical
+              Dirichlet process</a> to topic model conference papers. This is by
+              far the optimal way to browse long lists of accepted papers.
+              There's still a lot of work to be done in terms of navigation and
+              prettifying it, but the algorithm itself is more or less
+              optimized.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/pond.gif" style="height:250px;width:250px;"/>
+            <p>
+              <h3>Mesh</h3><br>
+              <a href="https://github.com/dustinvtran/mesh">Mesh</a> is a C++
+              design for creating 3D simulations. For Bayesians, this is
+              particularly helpful for visualizing state spaces during MCMC. I
+              am currently working with a friend of mine, <a
+              href="http://scholar.harvard.edu/yekuang/home">Ye Kuang</a>, in
+              order to extend our framework to compare several Monte Carlo
+              methods, including for example <a
+              href="http://en.wikipedia.org/wiki/Hybrid_Monte_Carlo">HMC</a>
+              and <a
+              href="http://en.wikipedia.org/wiki/Multiple-try_Metropolis">Multiple-Try
+              Metropolis</a>.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/dplyr.png" style="height:250px;width:250px;"/>
+            <p>
+              <h3>dplyr</h3><br>
+              <a href="https://github.com/hadley/dplyr">dplyr</a>
+              revolutionizes the way data manipulation is done in R. The
+              syntax is concise and more accessible than R's built-in
+              functions could ever be. It's the primary open source project I
+              contribute to, and I hope it along with the syntax it borrows
+              from <a href="https://github.com/smbache/magrittr">magrittr</a>
+              become mainstream in the R community.
+            </p>
+          </div>
+            <!--<p>                                                                     -->
+            <!--  <a href="https://github.com/dustinvtran/minpoly">A code snippet</a> to-->
+            <!--  compare a Krylov subspace method using minimal polynomials to GMRES   -->
+            <!--</p>                                                                    -->
+        </div>
+
+        <div class="row">
+          <h2><a name="other-interests"></a>Other Interests</h2>
+          <hr>
+          <div class="col-md-6">
+            <img src="img/2001.png" style="height:200px;width:370px;"/>
+            <p>
+              <h3>Fiction</h3>
+              I enjoy all storytelling mediums, although I'm most fond of
+              books and films. Pale Fire, Dubliners, Barry Lyndon, and 8 ½ are
+              some of my favorites. In general I tend to lean towards
+              atmospheric art house works, whether that be defined by their
+              visuals, prose, pacing, etc.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/seventh_seal.png" style="height:200px;width:370px;"/>
+            <p>
+              <h3>Chess</h3>
+              I played competitively for a few years but have recently kept myself
+              within the online community and its ladders. <a
+              href="http://en.lichess.org/">lichess</a> is my preferred platform for
+              games, although I haven't found it to be a suitable replacement for <a
+              href="http://chesstempo.com/">Chess Tempo</a>'s tactics. I'm always
+              up for a game if you encounter me in real life!
+            </p>
+          </div>
+
+          <h3>Trivia</h3>
+          <ul>
+            <li>Blindfold Rubik's cuber (freestyle/BH)</li>
+            <li>Avid <a href="img/colemak.png">Colemak user</a> since high school</li>
+            <li>Still waiting for my personally built
+            <a href="http://geekhack.org/index.php?topic=41464.0">keyboard</a> to
+            finish
+            <li>Vim devotee</li>
+            <li>Finds 80 char limit unusually pleasing</li>
+            <li>Uses Arch Linux and Debian</li>
+            <li><a href="https://github.com/dustinvtran/dotfiles">My desktop</a></li>
+          </ul>
+          <hr>
+        </div>
+
+        <div class="row">
+          <h2><a href="blog">My blog</a> on statistics, data, programming</h2>
+        </div>
+
       </div>
+
     </div>
+
+    <hr>
+
+    <footer>
+    &nbsp;
+    </footer>
+
   </div>
 
-  <div class="container bg-white" id="section-02">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <h2 id="section-04-title">Publications</h2>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <br>
-      <ul style="text-align: left;">
-        <li>
-          Dustin Tran, Panos Toulis, and Edoardo Airoldi. Averaged implicit
-          stochastic gradient descent (in progress).
-        </li>
-        <li>
-          Dustin Tran. Convex Techniques for Model Selection. Preprint <a
-          href="http://arxiv.org/abs/1411.7596">arXiv:1411.7596</a> [math.OC].
-          2014. (<a href="publications/recht_model_selection_talk.pdf">slides</a>)
-        </li>
-      </ul>
-      </div>
-    </div>
-
-  <div class="container bg-white" id="section-02">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <h2 id="section-04-title">Talks</h2>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <br>
-      <ul style="text-align: left;">
-        <li>
-          <em>Facebook: Tree-like
-          structures in Social and Informational Networks</em>, Institute for
-          Applied Computational Science Seminars, Cambridge, MA. November 2014.
-          (<a href="talks/facebook_tree_structure_networks.pdf">slides</a>)
-        </li>
-        <li>
-          <em>Data Analysis in R</em>, <a
-          href="https://cs50.harvard.edu">Harvard CS 50</a>, Cambridge, MA.
-          November 2014. (<a
-          href="http://cs50.tv/2014/fall/seminars/data_analysis_r/">video</a>,
-          <a href="talks/data_analysis_r.pdf">slides</a>, <a
-          href="https://github.com/dustinvtran/r-cs50">code</a>)
-        </li>
-        <li>
-          <em>A data science internship at Earnest</em>, <a
-          href="https://www.meetearnest.com/">Earnest</a>, San Francisco, CA.
-          August 2014. (<a
-          href="talks/earnest_ds_internship.pdf">slides</a>)
-        </li>
-        <li>
-          <em>Detecting contagion in financial networks</em>, Spatial Networks
-          Seminar, Berkeley, CA. December 2013. (<a
-          href="talks/networks_talk.pdf">slides</a>)
-        </li>
-        <li>
-          <em>A Riemannian manifold setting for Hamiltonian Monte Carlo</em>,
-          Riemannian Geometry course, Berkeley, CA. May 2013.
-        </li>
-      </ul>
-      </div>
-    </div>
-
-  <div class="container bg-white" id="section-02">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <h2 id="section-04-title">Pet Projects</h2>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <br>
-      <ul>
-        <li>
-          <a href="https://github.com/dustinvtran/nipspreview">My fork</a> of
-          Andrej Karpathy's <span style="font-family:
-          monospace;">nipspreview</span>, which now runs HDP to topic model
-          conference papers
-        </li>
-        <li>
-          <a href="https://github.com/dustinvtran/mesh">A mesh design</a> for
-          3D simulations, which can visualize state spaces for MCMC
-        </li>
-        <li>
-          <a href="https://github.com/dustinvtran/minpoly">A code snippet</a> to
-          compare a Krylov subspace method using minimal polynomials to GMRES
-        </li>
-        <li>
-          <a href="https://twitter.com/hashtag/rstats?src=hash">An ongoing
-          attempt</a> to make <span style="font-family: monospace;">dplyr</span>
-          mainstream in R!
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container bg-white" id="section-01">
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <h2 id="section-04-title">Other Interests</h2>
-      </div>
-    </div>
-    <br>
-    <div class="row-fluid bg-white">
-      <div class="span4">
-        <a indepth="true" href="#" class="circle orange hacking">
-          <span>hacking</span>
-        </a>
-      </div>
-      <div class="span4">
-        <a indepth="true" href="#" class="circle teal fiction">
-          <span>fiction</span>
-        </a>
-      </div>
-      <div class="span4">
-        <a indepth="true" href="#" class="circle blue chess">
-          <span>chess</span>
-        </a>
-      </div>
-    </div>
-    <div class="spoiler hacking">
-      <br>
-      <div class="row-fluid bg-white">
-        <p class="paragraph-content">
-          Nothing is more exciting to me than finding a cooler way to solve a
-          problem ("cooler" defined by multiple metrics—speed, simplicity,
-          generality among a few).  Hacking is a broad term, so I'll just
-          outline my affection of hacks to programming.
-          <br><br>
-          Individual libraries of a language can be awesome, and are primarily
-          why I use a certain language: I gush about <a
-          href="https://github.com/hadley/dplyr">dplyr</a> because of its data
-          manipulation grammar which is leaps and bounds ahead of standard
-          tools; <a href="http://d3js.org/">D3.js</a> does web visualization
-          like none other; <a href="http://scikit-learn.org/">scikit-learn</a>
-          is the best collection of machine learning tools in one library; <a
-          href="http://www.boost.org/">Boost</a> has insanely awesome
-          metaprogramming for optimal runtime speeds; <a
-          href="http://yihui.name/knitr">knitr</a> produces the most beautiful
-          typewritten documents with embedded code and visuals; etc. etc.
-          <br><br>
-          Let's not forget about <a href="http://awesome.naquadah.org/">window
-          managers</a>, <a href="http://www.vim.org/">Vim</a>, and Vim-inspired
-          applications such as <a href="http://ranger.nongnu.org/">ranger</a>,
-          <a href="http://5digits.org/pentadactyl/">Pentadactyl</a>, <a
-          href="http://zshwiki.org/home/zle/vi-mode">zsh in vi-mode</a>, <a
-          href="http://pwmt.org/projects/zathura/">zathura</a>, and <a
-          href="https://github.com/dustinvtran/dotfiles#primary-applications">the
-          dozens more</a> that can replace almost all applications which would
-          otherwise require a mouse.  Productivity is so much higher when you
-          have dozens of macros to teleport among workspaces, applications, and
-          even lines of code.
-        </p>
-      </div>
-    </div>
-    <div class="spoiler fiction">
-      <br>
-      <div class="row-fluid bg-white">
-        <p class="paragraph-content">
-          I enjoy all storytelling mediums, although I'm most fond of books and
-          films. Kafka on the Shore, The Silmarillion, Barry Lyndon, and 8 ½ are
-          some of my favorites.
-          <br><br>
-          I usually abide by western convention—solid character development,
-          presentation, plot progression, and overall message. I do however have
-          a preference for atmosphere more than most, and am also not one to
-          fault, say, eastern works from a western penchant. I would say my
-          attitude in general leans toward art house works, in visuals, in
-          prose, or in whatever lends the most strength and is most niche to the
-          medium. I find they really challenge the meaning of art and the
-          expression within it.
-        </p>
-      </div>
-    </div>
-    <div class="spoiler chess">
-      <br>
-      <div class="row-fluid bg-white">
-        <p class="paragraph-content">
-          I love chess most because of the highly developed metagame. While I
-          find certain board games more conceptually and mathematically
-          interesting (particularly Go), chess is that unique mix of familiarity
-          and high-end complexity that continues to make new developments
-          engaging.
-          <br><br>
-          I played competitively for a few years but have recently kept myself
-          within the online community and its ladders. <a
-          href="http://en.lichess.org/">lichess</a> is my preferred platform for
-          games, although I haven't found it to be a suitable replacement for <a
-          href="http://chesstempo.com/">Chess Tempo</a>'s tactics. I'm always
-          up for a game if you encounter me in real life!
-        </p>
-      </div>
-    </div>
-
-    <br><br>
-    <br><br>
-
-    <div class="row-fluid">
-      <div class="span10 offset1">
-        <h2 id="section-04-title">Trivia</h2>
-      </div>
-    </div>
-
-    <ul>
-      <li>Blindfold Rubik's cuber (freestyle/BH)</li>
-      <li>Avid <a href="img/colemak.png">Colemak user</a> since high school</li>
-      <li>Still waiting for my personally built
-      <a href="http://geekhack.org/index.php?topic=41464.0">keyboard</a> to
-      finish
-      <li>Vim devotee</li>
-      <li>Finds 80 char limit unusually pleasing</li>
-      <li>Uses Arch Linux and Debian</li>
-      <li><a href="https://github.com/dustinvtran/dotfiles">My desktop</a></li>
-    </ul>
-  </div>
-
-  <div class="container clear-vertical-padding" id="section-06">
-    <div class="row-fluid">
-      <div class="span12">
-        <a href="blog" id="open-source">
-          <div class="span12 text-center no-margin" style="z-index: 999;"><h2>Blog</h2></div>
-          <br><br>
-          <div class="text-center no-margin"><p>Statistics, data, programming</p></div>
-          <div class="span1 offset5"><div class="arrow-link-white"></div></div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="footer">
-</div>
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript">
+  init_mathjax = function() {
+    if (window.MathJax) {
+      // MathJax loaded
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        },
+        displayAlign: 'left', // Change this to 'center' to center equations.
+        "HTML-CSS": {
+          styles: {'.MathJax_Display': {"margin": 0}}
+        }
+      });
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+  }
+  init_mathjax();
+  </script>
 
 </body>
 </html>
