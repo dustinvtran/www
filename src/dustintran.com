@@ -6,7 +6,7 @@ server {
 	index index.html index.htm;
 
 	# Make site accessible from http://localhost/
-	server_name dustintran.com www.dustintran.com;
+	server_name dustintran.com;
 
         location ^~ /blog {
             proxy_set_header X-Real-IP $remote_addr;
