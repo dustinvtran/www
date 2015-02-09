@@ -87,22 +87,37 @@
         <div class="row">
           <h2><a name="publications"></a>Publications</h2>
           <hr>
-          <p>
-            <strong>Averaged implicit stochastic gradient descent (in
-            progress).</strong><br>
-            Dustin Tran, Panos Toulis, Edoardo Airoldi<br>
-            <div class="btn-group-xs">
-              <a href="https://github.com/dustinvtran/ai-sgd"
-              class="btn btn-default">Code</a>
-            </div>
-          </p>
+          <div class="col-md-6">
+            <p>
+              <h4>Stable and optimal: implicit stochastic gradient descent with
+              averaging.</h4>
+              Stochastic gradient methods have increasingly become popular for
+              large-scale optimization. However, they are often numerically
+              unstable and statistically inefficient because of their
+              sensitivity to the problem convexity and learning rate
+              specification. We propose a new learning procedure, termed
+              averaged implicit stochastic gradient descent (AI-SGD), which
+              combines stability through proximal (implicit) updates and
+              statistical efficiency through averaging of the iterates. [...]
+              <br>
+              Panos Toulis, <strong>Dustin Tran</strong>, Edoardo Airoldi<br>
+              <em>Preprint (submitted).</em> 2015.
+              <div class="btn-group-xs">
+                <a href="https://github.com/dustinvtran/ai-sgd"
+                class="btn btn-default">Code</a>
+              </div>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/exp_poisson_n6p1.png" class="img-responsive"/>
+          </div>
           <br>
           <div class="col-md-6">
             <img src="img/convex_hull.png" class="img-responsive"/>
           </div>
           <div class="col-md-6">
             <p>
-              <h4>Convex Techniques for Model Selection.</h4>
+              <h4>Convex techniques for model selection.</h4>
               We develop a robust convex algorithm to select the
               regularization parameter in model selection. In practice this
               would be automated in order to save practitioners time from
