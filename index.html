@@ -66,16 +66,16 @@
           where I work with
           <a href="http://www.people.fas.harvard.edu/~airoldi/">Edo Airoldi</a>.
           I am broadly interested in statistical machine learning under the
-          Bayesian paradigm. My focus is on network analysis for statistical
-          relational learning, and developing scalable estimation techniques.
+          Bayesian paradigm. My focus at the moment is on developing scalable
+          estimation techniques. I'm also quite interested in Bayesian
+          optimization, and models and inference on network structures.
           </p><p>
           I am a member of the <a href="http://applied.stat.harvard.edu">Harvard
-          Lab for Applied Statistical Methodology</a>.
-          During my undergraduate at Berkeley, I studied optimization with <a
+          Lab for Applied Statistical Methodology</a>.  During my undergraduate
+          at Berkeley, I studied optimization with <a
           href="http://www.eecs.berkeley.edu/~brecht/">Ben Recht</a> and
-          probability with <a href="https://www.stat.berkeley.edu/~pitman/">Jim
-          Pitman</a>. I also happen to do statistical consulting for
-          startups—contact me!
+          topics in probability with <a
+          href="https://www.stat.berkeley.edu/~pitman/">Jim Pitman</a>.
           </p>
         </div>
 
@@ -84,21 +84,21 @@
           <hr>
           <div class="col-md-6">
             <p>
-              <h4>Stable and optimal: implicit stochastic gradient descent with
-              averaging.</h4>
+              <h4>Stability and optimality in stochastic gradient descent.</h4>
               Stochastic gradient methods have increasingly become popular for
               large-scale optimization. However, they are often numerically
-              unstable and statistically inefficient because of their
-              sensitivity to the problem convexity and learning rate
-              specification. We propose a new learning procedure, termed
-              averaged implicit stochastic gradient descent (AI-SGD), which
-              combines stability through proximal (implicit) updates and
-              statistical efficiency through averaging of the iterates. [...]
+              unstable because of their sensitivity to hyperparameters in the
+              learning rate; furthermore they are statistically inefficient
+              because of their suboptimal usage of the data's information. We
+              propose a new learning procedure, termed <em>averaged implicit
+              stochastic gradient descent</em> (ai-SGD), which combines
+              stability through proximal (implicit) updates and statistical
+              efficiency through averaging of the iterates. [...]
               <br>
               Panos Toulis, <strong>Dustin Tran</strong>, Edoardo M. Airoldi<br>
               <em>Preprint (submitted).</em> 2015.
               <div class="btn-group-xs">
-                <a href="https://github.com/dustinvtran/ai-sgd"
+                <a href="https://github.com/airoldilab/ai-sgd"
                 class="btn btn-default">Code</a>
               </div>
             </p>
