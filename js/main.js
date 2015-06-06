@@ -25,3 +25,14 @@ init_mathjax = function() {
   }
 }
 init_mathjax();
+
+// Show more/less text
+$('.show-more').click(function(){
+  var $this = $(this);
+  $this.toggleClass('show-more');
+  if($this.hasClass('show-more')){
+    $this.text('show more');
+  } else {
+    $this.text('show less');
+  }
+});
