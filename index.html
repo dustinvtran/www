@@ -31,7 +31,7 @@
         <ul class="nav nav-pills nav-stacked">
           <!--<li><a href="contact/CV.pdf">CV</a></li>-->
           <li><a href="#publications">Papers</a></li>
-          <li><a href="#pet-projects">Pet Projects</a></li>
+          <li><a href="#software">Software</a></li>
           <li><a href="#talks">Talks</a></li>
           <li><a href="#other-interests">Other Interests</a></li>
           <li><a href="blog">Blog</a></li>
@@ -66,10 +66,10 @@
           <a href="http://www.people.fas.harvard.edu/~airoldi/">Edo Airoldi</a>
           and
           <a href="http://www.cs.columbia.edu/~blei/">David Blei</a>.
-          I am broadly interested in statistical machine learning under the
-          Bayesian paradigm. My focus is on scalable and generic inference for
-          probabilistic models, and also on (nonparametric) models of relational
-          data such as networks.
+          I am broadly interested in machine learning and Bayesian statistics.
+          My focus is on scalable and generic inference for probabilistic
+          models, and also on (nonparametric) models of relational data such as
+          networks.
           </p><p>
           I am a member of the
           <a href="http://applied.stat.harvard.edu">Harvard Lab for Applied
@@ -206,8 +206,22 @@
         </div>
 
         <div class="row">
-          <h2><a name="pet-projects"></a>Pet Projects</h2>
+          <h2><a name="software"></a>Software</h2>
           <hr>
+          <div class="col-md-4">
+            <img src="img/stan.png" style="height:250px;width:250px;"/>
+            <p>
+              <h3>Automatic Variational Inference</h3><br>
+              <a href="http://proditus.com">Alp Kucukelbir</a> and I are
+              developing automatic variational inference in the <a
+              href="http://mc-stan.org">Stan</a> probabilistic programming
+              language. It features cool things like automatic differentiation
+              and parameter transformations in order to make Bayesian inference
+              viable on massive data sets.
+              Check it out on <a
+              href="https://github.com/stan-dev/stan">Github</a>.
+            </p>
+          </div>
           <div class="col-md-4">
             <img src="img/julia.png" style="height:250px;width:250px;"/>
             <p>
@@ -217,36 +231,63 @@
               before it becomes mainstream in the statistics and machine
               learning community, but <a
               href="http://juliastats.github.io">we're making it happen</a>!
+              Check it out on <a
+              href="https://github.com/JuliaStats">Github</a>.
             </p>
           </div>
           <div class="col-md-4">
-            <img src="img/mcmc.gif" style="height:250px;width:250px;"/>
+            <img src="img/aisgd.png" style="height:250px;width:250px;"/>
             <p>
-              <h3>MCMC Visualizer</h3><br>
-              <a href="https://github.com/k-ye/mcmc-viz">mcmc-viz</a> is a 3D
-              visualization tool for Markov chain Monte Carlo (MCMC) methods. I
-              am currently working with a friend of mine, <a
-              href="http://scholar.harvard.edu/yekuang/home">Ye Kuang</a>, in
-              order to extend our framework to compare for example <a
-              href="http://en.wikipedia.org/wiki/Hybrid_Monte_Carlo">HMC</a>, <a
-              href="http://en.wikipedia.org/wiki/Multiple-try_Metropolis">Multiple-Try
-              Metropolis</a>, and parallel variants.
+              <h3>sgd Package in R</h3><br>
+              We build large-scale estimation tools in R using stochastic
+              gradient descent, available on <a
+              href="http://cran.r-project.org/web/packages/sgd/index.html">CRAN</a>. The library I'm developing with <a
+              href="http://www.people.fas.harvard.edu/~ptoulis">Panos
+              Toulis</a> includes a slew of stochastic gradient methods,
+              built-in models, visualization tools, hypothesis testing,
+              convergence diagnostics, and other cool stuff.
+              Check it out on <a
+              href="https://github.com/airoldilab/sgd">Github</a>.
             </p>
           </div>
-          <div class="col-md-4">
-            <img src="img/nipspreview.jpg" style="height:250px;width:250px;"/>
-            <p>
-              <h3>NIPS Preview</h3><br>
-              <a href="https://github.com/dustinvtran/nipspreview">My fork</a>
-              of Andrej Karpathy's <span style="font-family:
-              monospace;">nipspreview</span> uses a <a
-              href="http://en.wikipedia.org/wiki/Hierarchical_Dirichlet_process">hierarchical
-              Dirichlet process</a> to topic model conference papers. This is by
-              far the most elegant way to browse lists of accepted papers.
-              There's still a lot of work to be done in terms of navigation and
-              prettifying it, but the algorithm itself is more or less
-              optimized.
+          <div class="col-md-12">
+            <p class="text-center">
+              <button type="button" class="btn btn-sm btn-primary show-more"
+              data-toggle="collapse" data-target="#more-software">
+                show more
+              </button>
             </p>
+          </div>
+          <div id="more-software" class="collapse">
+            <div class="col-md-4">
+              <img src="img/nipspreview.jpg" style="height:250px;width:250px;"/>
+              <p>
+                <h3>NIPS Preview</h3><br>
+                <a href="https://github.com/dustinvtran/nipspreview">My fork</a>
+                of Andrej Karpathy's <span style="font-family:
+                monospace;">nipspreview</span> uses a <a
+                href="http://en.wikipedia.org/wiki/Hierarchical_Dirichlet_process">hierarchical
+                Dirichlet process</a> to topic model conference papers. This is by
+                far the most elegant way to browse lists of accepted papers.
+                There's still a lot of work to be done in terms of navigation and
+                prettifying it, but the algorithm itself is more or less
+                optimized.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img src="img/mcmc.gif" style="height:250px;width:250px;"/>
+              <p>
+                <h3>MCMC Visualizer</h3><br>
+                <a href="https://github.com/k-ye/mcmc-viz">mcmc-viz</a> is a 3D
+                visualization tool for Markov chain Monte Carlo (MCMC) methods. I
+                am currently working with a friend of mine, <a
+                href="http://scholar.harvard.edu/yekuang/home">Ye Kuang</a>, in
+                order to extend our framework to compare for example <a
+                href="http://en.wikipedia.org/wiki/Hybrid_Monte_Carlo">HMC</a>, <a
+                href="http://en.wikipedia.org/wiki/Multiple-try_Metropolis">Multiple-Try
+                Metropolis</a>, and parallel variants.
+              </p>
+            </div>
           </div>
         </div>
 
