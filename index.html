@@ -30,7 +30,7 @@
         <hr>
         <ul class="nav nav-pills nav-stacked">
           <!--<li><a href="contact/CV.pdf">CV</a></li>-->
-          <li><a href="#publications">Papers</a></li>
+          <li><a href="#papers">Papers</a></li>
           <li><a href="#software">Software</a></li>
           <li><a href="#talks">Talks</a></li>
           <li><a href="#other-interests">Other Interests</a></li>
@@ -63,13 +63,13 @@
         <div class="row">
           <p>
           I am a Ph.D. student in Statistics at Harvard, where I work with
-          <a href="http://www.people.fas.harvard.edu/~airoldi/">Edo Airoldi</a>
+          <a href="http://www.people.fas.harvard.edu/~airoldi/">Edo
+          Airoldi</a>
           and
           <a href="http://www.cs.columbia.edu/~blei/">David Blei</a>.
           I am broadly interested in machine learning and Bayesian statistics.
-          My focus is on approximate posterior inference under the general
-          framework of probabilistic programs, as well as (nonparametric) models
-          of relational data such as networks.
+          My focus is on approximate posterior inference as well as
+          (nonparametric) models of relational data such as networks.
           </p><p>
           I am fortunate to be a member of many incredible groups: the
           <a href="http://applied.stat.harvard.edu">Harvard Lab for Applied
@@ -86,30 +86,8 @@
         </div>
 
         <div class="row">
-          <h2><a name="publications"></a>Papers</h2>
+          <h2><a name="papers"></a>Papers</h2>
           <hr>
-          <div class="col-md-12">
-            <div class="col-md-2">
-              <img src="img/ssl.png"
-                style="height:150px;width:150px;float:right;"/>
-            </div>
-            <div class="col-md-10">
-              <p>
-                <h4>Stochastic spectral learning</h4>
-                We propose a principled way to perform regularization and low
-                rank learning by reframing spectral learning as optimization
-                under a suitable loss function. In doing so, we consider a
-                procedure for spectral learning through stochastic optimization
-                on the generalized method of moments.  Our method is highly
-                scalable, statistically optimal, and regularized, and we show
-                empirically that it performs better than previous methods for
-                learning hidden Markov models.
-                <br>
-                <strong>Dustin Tran</strong>, Finale Doshi-Velez<br>
-                <em>In progress</em>, 2015
-              </p>
-            </div>
-          </div>
           <div class="col-md-12">
             <div class="col-md-2">
               <img src="img/frank_copula.png"
@@ -127,7 +105,7 @@
                 approximations to the posterior as measured by KL divergence.
                 <br>
                 <strong>Dustin Tran</strong>, David M. Blei, Edoardo M. Airoldi<br>
-                <em>Preprint (submitted),</em> 2015
+                <em>Preprint</em>, 2015
                 <div class="btn-group-xs">
                   <a href="http://arxiv.org/abs/1506.03159"
                   class="btn btn-default">Paper</a>
@@ -156,7 +134,7 @@
                 issues.
                 <br>
                 Panos Toulis, <strong>Dustin Tran</strong>, Edoardo M. Airoldi<br>
-                <em>Preprint (submitted)</em>, 2015
+                <em>Preprint</em>, 2015
                 <div class="btn-group-xs">
                   <a href="http://arxiv.org/abs/1505.02417"
                   class="btn btn-default">Paper</a>
@@ -166,43 +144,6 @@
                   class="btn btn-default">Code</a>
                 </div>
               </p>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <p class="text-center">
-              <button type="button" class="btn btn-sm btn-primary show-more"
-              data-toggle="collapse" data-target="#more-publications">
-                show more
-              </button>
-            </p>
-          </div>
-          <div id="more-publications" class="collapse">
-            <div class="col-md-12">
-              <div class="col-md-2">
-                <img src="img/convex_hull.png"
-                  style="height:150px;width:150px;float:right;"/>
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <h4>Convex techniques for model selection</h4>
-                  We develop a robust convex algorithm to select the
-                  regularization parameter in model selection. In practice this
-                  would be automated in order to save practitioners time from
-                  having to tune it manually. In particular, we implement and test
-                  the convex method for $K$-fold cross validation on ridge
-                  regression, although the same concept extends to more complex
-                  models. We then compare its performance with standard methods.
-                  <br>
-                  <strong>Dustin Tran</strong><br>
-                  <em>Technical report [math.OC]</em>, 2014
-                </p>
-                <div class="btn-group-xs">
-                  <a href="http://arxiv.org/abs/1411.7596"
-                  class="btn btn-default">Paper</a>
-                  <a href="talks/recht_model_selection.pdf"
-                  class="btn btn-default">Slides</a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
