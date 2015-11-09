@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal website of Dustin Tran, a graduate
+  <meta name="description" content="Personal website of Dustin Tran, a Ph.D.
   student at Harvard.">
   <meta name="author" content="Dustin Tran">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
@@ -29,7 +29,6 @@
        <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:180px">
         <hr>
         <ul class="nav nav-pills nav-stacked">
-          <!--<li><a href="contact/CV.pdf">CV</a></li>-->
           <li><a href="#papers">Papers</a></li>
           <li><a href="#software">Software</a></li>
           <li><a href="#talks">Talks</a></li>
@@ -66,9 +65,10 @@
           <a href="http://www.people.fas.harvard.edu/~airoldi/">Edo Airoldi</a>
           and
           <a href="http://www.cs.columbia.edu/~blei/">David Blei</a>.
-          I work in the fields of machine learning and Bayesian statistics. My
-          research interests include black box inference, graphical
-          models, and the application of such tools for statistical analysis.
+          I work in the fields of machine learning and Bayesian
+          statistics. My research interests include black box
+          inference, graphical models, and the application of such
+          tools for statistical analysis.
           </p><p>
           I am fortunate to be a member of many incredible groups: the
           <a href="http://applied.stat.harvard.edu">Harvard Lab for Applied
@@ -81,100 +81,75 @@
           During my undergraduate years at Berkeley, I studied random graphs
           with <a href="https://www.stat.berkeley.edu/~aldous/">David
           Aldous</a>.
+          </p><p>
+          <strong><a href="cv.pdf">Curriculum Vitae</a></strong>
           </p>
         </div>
 
         <div class="row">
           <h2><a name="papers"></a>Papers</h2>
           <hr>
-          <div class="col-md-12">
-            <div class="col-md-2">
-              <img src="img/jss.png"
-                style="width:150px;float:right;"/>
+          <h3>Preprints</h3>
+          <p>
+            <strong>Hierarchical variational models</strong><br>
+            A Bayesian framework for variational
+            models in black box inference.
+            <br>
+            Rajesh Ranganath, <strong>Dustin Tran</strong>, David M.
+            Blei<br>
+            <div class="btn-group-xs">
+              <a href="http://arxiv.org/abs/1511.02386"
+              class="btn btn-default">Paper</a>
             </div>
-            <div class="col-md-10">
-              <p>
-                <h4>Stochastic gradient descent methods for estimation with
-                large data sets</h4>
-                We develop methods for parameter estimation in settings with
-                large-scale data sets, where traditional methods are no longer
-                tenable. Our <strong>sgd</strong> package in R offers the most
-                extensive and robust implementation of stochastic gradient
-                descent algorithms. We demonstrate that <strong>sgd</strong>
-                dominates alternative software in runtime. Our applications
-                include the wide class of generalized linear models as well as
-                M-estimation for robust regression.
-                <br>
-                <strong>Dustin Tran</strong>, Panos Toulis, Edoardo M.
-                Airoldi<br>
-                <em>Preprint</em>, 2015
-                <div class="btn-group-xs">
-                  <a href="http://arxiv.org/pdf/1509.06459v1.pdf"
-                  class="btn btn-default">Paper</a>
-                  <a href="https://github.com/airoldilab/sgd"
-                  class="btn btn-default">Code</a>
-                </div>
-              </p>
+          </p>
+          <p>
+            <strong>Stochastic gradient descent methods for estimation with
+            large data sets</strong><br>
+            Fast and statistically efficient algorithms for
+            generalized linear models and M-estimation.
+            <br>
+            <strong>Dustin Tran</strong>, Panos Toulis, Edoardo M.
+            Airoldi<br>
+            <div class="btn-group-xs">
+              <a href="http://arxiv.org/abs/1509.06459"
+              class="btn btn-default">Paper</a>
+              <a href="https://github.com/airoldilab/sgd"
+              class="btn btn-default">Code</a>
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-2">
-              <img src="img/frank_copula.png"
-                style="height:150px;width:150px;float:right;"/>
+          </p>
+          <p>
+            <strong>Towards stability and optimality in stochastic gradient
+            descent</strong><br>
+            A stochastic gradient method combining numerical stability
+            and statistical efficiency.
+            <br>
+            Panos Toulis, <strong>Dustin Tran</strong>, Edoardo M.
+            Airoldi<br>
+            <div class="btn-group-xs">
+              <a href="http://arxiv.org/abs/1505.02417"
+              class="btn btn-default">Paper</a>
+              <a href="/papers/ToulisTranAiroldi2015_poster.pdf"
+              class="btn btn-default">Poster</a>
+              <a href="https://github.com/airoldilab/sgd"
+              class="btn btn-default">Code</a>
             </div>
-            <div class="col-md-10">
-              <p>
-                <h4>Variational inference with copula augmentation</h4>
-                We develop a general methodology for variational inference which
-                preserves dependency among the latent variables. This is done by
-                augmenting the families of distributions used in mean-field and
-                structured approximation with copulas.  Copulas allow one to
-                separately model the dependency given a factorization of the
-                variational distribution, and can guarantee us better
-                approximations to the posterior as measured by KL divergence.
-                <br>
-                <strong>Dustin Tran</strong>, David M. Blei, Edoardo M. Airoldi<br>
-                <em>Neural Information Processing Systems</em>, 2015
-                <div class="btn-group-xs">
-                  <a href="http://arxiv.org/pdf/1506.03159v1.pdf"
-                  class="btn btn-default">Paper</a>
-                  <a href="img/copula_poster.pdf"
-                  class="btn btn-default">Poster</a>
-                </div>
-              </p>
+          </p>
+          <h3>2015</h3>
+          <p>
+            <strong>Copula variational inference</strong><br>
+            Posterior approximations using copulas, which find
+            meaningful dependence between latent variables.
+            <br>
+            <strong>Dustin Tran</strong>, David M. Blei, Edoardo M.
+            Airoldi<br>
+            <em>Neural Information Processing Systems</em>, 2015
+            <div class="btn-group-xs">
+              <a href="/papers/TranBleiAiroldi2015.pdf"
+              class="btn btn-default">Paper</a>
+              <a href="/papers/TranBleiAiroldi2015_poster.pdf"
+              class="btn btn-default">Poster</a>
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-2">
-              <img src="img/aisgd.png"
-                style="height:150px;width:150px;float:right;"/>
-            </div>
-            <div class="col-md-10">
-              <p>
-                <h4>Towards stability and optimality in stochastic gradient
-                descent</h4>
-                Iterative estimation methods, such as stochastic gradient
-                descent (SGD), update the current iterate (parameter estimate)
-                according to some discrepancy between what is observed and what
-                is expected, assuming the current iterate has the true parameter
-                value.  Although SGD is computationally efficient, it cannot
-                effectively combine it with statistical efficiency and
-                stability. We propose a new procedure to resolve these two
-                issues.
-                <br>
-                Panos Toulis, <strong>Dustin Tran</strong>, Edoardo M. Airoldi<br>
-                <em>Preprint</em>, 2015
-                <div class="btn-group-xs">
-                  <a href="http://arxiv.org/pdf/1505.02417v1.pdf"
-                  class="btn btn-default">Paper</a>
-                  <a href="img/stability_poster.pdf"
-                  class="btn btn-default">Poster</a>
-                  <a href="https://github.com/airoldilab/sgd"
-                  class="btn btn-default">Code</a>
-                </div>
-              </p>
-            </div>
-          </div>
+          </p>
         </div>
 
         <div class="row">
@@ -239,19 +214,21 @@
                 of Andrej Karpathy's <span style="font-family:
                 monospace;">nipspreview</span> uses a <a
                 href="http://en.wikipedia.org/wiki/Hierarchical_Dirichlet_process">hierarchical
-                Dirichlet process</a> to topic model conference papers. This is by
-                far the most elegant way to browse lists of accepted papers.
-                There's still a lot of work to be done in terms of navigation and
-                prettifying it, but the algorithm itself is more or less
-                optimized.
+                Dirichlet process</a> to topic model conference
+                papers. This is by far the most elegant way to browse
+                lists of accepted papers. There's still a lot of work
+                to be done in terms of navigation and prettifying it,
+                but the algorithm itself is more or less optimized.
               </p>
             </div>
             <div class="col-md-4">
               <img src="img/mcmc.gif" style="height:250px;width:250px;"/>
               <p>
                 <h3>MCMC Visualizer</h3><br>
-                <a href="https://github.com/k-ye/mcmc-viz">mcmc-viz</a> is a 3D
-                visualization tool for Markov chain Monte Carlo (MCMC) methods. I
+                <a
+                href="https://github.com/k-ye/mcmc-viz">mcmc-viz</a>
+                is a 3D visualization tool for Markov chain Monte
+                Carlo (MCMC) methods. I
                 am currently working with a friend of mine, <a
                 href="http://scholar.harvard.edu/yekuang/home">Ye Kuang</a>, in
                 order to extend our framework to compare for example <a
