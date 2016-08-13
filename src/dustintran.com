@@ -8,18 +8,14 @@ server {
 	# Make site accessible from http://localhost/
 	server_name dustintran.com;
 
+        # Rewrite trailing slash
+        rewrite ^/blog/(.*)/$ /blog/$1 permanent;
+
 	location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
 		try_files $uri $uri.html $uri.xml $uri/ =404;
-		# Uncomment to enable naxsi on this location
-		# include /etc/nginx/naxsi.rules
 	}
-
-	# Only for nginx-naxsi used with nginx-naxsi-ui : process denied requests
-	#location /RequestDenied {
-	#	proxy_pass http://127.0.0.1:8080;
-	#}
 
 	error_page 404 /404.html;
 
