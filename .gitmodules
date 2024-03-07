@@ -1,3 +1,7 @@
 [submodule "_blog"]
 	path = _blog
 	url = https://github.com/dustinvtran/blog.git
+
+[submodule "blog"]
+	path = blog
+	url = https://github.com/dustinvtran/blog-build.git
